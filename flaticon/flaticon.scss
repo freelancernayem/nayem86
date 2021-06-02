@@ -1,0 +1,81 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0b5cca4d5558506f1c02d2368087e49b") format("truetype"),
+url("./flaticon.woff?0b5cca4d5558506f1c02d2368087e49b") format("woff"),
+url("./flaticon.woff2?0b5cca4d5558506f1c02d2368087e49b") format("woff2"),
+url("./flaticon.eot?0b5cca4d5558506f1c02d2368087e49b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0b5cca4d5558506f1c02d2368087e49b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "responsive": "\f101",
+    "design-thinking": "\f102",
+    "satisfaction": "\f103",
+    "website": "\f104",
+    "user": "\f105",
+    "location": "\f106",
+    "email": "\f107",
+    "phone-call": "\f108",
+    "mail": "\f109",
+    "graphic-designer": "\f10a",
+    "wordpress-logo": "\f10b",
+    "ad": "\f10c",
+    "ad-1": "\f10d",
+    "mobile-app": "\f10e",
+);
+
+.flaticon-responsive:before {
+    content: map-get($flaticon-map, "responsive");
+}
+.flaticon-design-thinking:before {
+    content: map-get($flaticon-map, "design-thinking");
+}
+.flaticon-satisfaction:before {
+    content: map-get($flaticon-map, "satisfaction");
+}
+.flaticon-website:before {
+    content: map-get($flaticon-map, "website");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-graphic-designer:before {
+    content: map-get($flaticon-map, "graphic-designer");
+}
+.flaticon-wordpress-logo:before {
+    content: map-get($flaticon-map, "wordpress-logo");
+}
+.flaticon-ad:before {
+    content: map-get($flaticon-map, "ad");
+}
+.flaticon-ad-1:before {
+    content: map-get($flaticon-map, "ad-1");
+}
+.flaticon-mobile-app:before {
+    content: map-get($flaticon-map, "mobile-app");
+}

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?0b5cca4d5558506f1c02d2368087e49b") format("truetype"),
+url("./flaticon.woff?0b5cca4d5558506f1c02d2368087e49b") format("woff"),
+url("./flaticon.woff2?0b5cca4d5558506f1c02d2368087e49b") format("woff2"),
+url("./flaticon.eot?0b5cca4d5558506f1c02d2368087e49b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0b5cca4d5558506f1c02d2368087e49b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-responsive:before {
+    content: "\f101";
+}
+.flaticon-design-thinking:before {
+    content: "\f102";
+}
+.flaticon-satisfaction:before {
+    content: "\f103";
+}
+.flaticon-website:before {
+    content: "\f104";
+}
+.flaticon-user:before {
+    content: "\f105";
+}
+.flaticon-location:before {
+    content: "\f106";
+}
+.flaticon-email:before {
+    content: "\f107";
+}
+.flaticon-phone-call:before {
+    content: "\f108";
+}
+.flaticon-mail:before {
+    content: "\f109";
+}
+.flaticon-graphic-designer:before {
+    content: "\f10a";
+}
+.flaticon-wordpress-logo:before {
+    content: "\f10b";
+}
+.flaticon-ad:before {
+    content: "\f10c";
+}
+.flaticon-ad-1:before {
+    content: "\f10d";
+}
+.flaticon-mobile-app:before {
+    content: "\f10e";
+}
